@@ -14,7 +14,7 @@ import { useState } from "react";
 export default function Home() {
   const [hoveredService, setHoveredService] = useState<string | null>(null);
 
-  const whatsappNumber = "5511917550497"; // Ingrid R. Silva
+  const whatsappNumber = "5511992174025"; // Ingrid R. Silva
   const whatsappMessage = "Olá! Gostaria de solicitar um orçamento para seus serviços de fotografia.";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     whatsappMessage
