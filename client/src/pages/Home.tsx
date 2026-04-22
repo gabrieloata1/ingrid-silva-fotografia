@@ -47,18 +47,18 @@ export default function Home() {
   const portfolio = [
     {
       id: 1,
-      image: "/assets/photo-event-1.jpg",
-      title: "Evento Colorido",
+      image: "/assets/photo-event-1-new.jpg",
+      title: "Evento Colorido - Aniversário Ingrid",
     },
     {
       id: 2,
-      image: "/assets/photo-event-2.jpg",
-      title: "Momento em Família",
+      image: "/assets/photo-event-2-new.jpg",
+      title: "Momento em Família - Evento Social",
     },
     {
       id: 3,
-      image: "/assets/photo-event-3.jpg",
-      title: "Celebração Especial",
+      image: "/assets/photo-event-3-new.jpg",
+      title: "Celebração Especial em Família",
     },
   ];
 
