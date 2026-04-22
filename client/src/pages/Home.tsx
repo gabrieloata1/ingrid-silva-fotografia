@@ -100,15 +100,10 @@ export default function Home() {
               você se sinta à vontade e tenha imagens autênticas, cheias de significado e emoção.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                <Button className="w-full sm:w-auto bg-primary text-primary-foreground hover:opacity-90">
-                  <MessageCircle className="w-4 h-4 mr-2" />
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <Button className="w-full bg-primary text-primary-foreground hover:opacity-90 px-8 py-6 text-lg">
+                  <MessageCircle className="w-5 h-5 mr-2" />
                   Solicitar Orçamento
-                </Button>
-              </a>
-              <a href="#servicos">
-                <Button className="w-full sm:w-auto border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                  Conhecer Serviços
                 </Button>
               </a>
             </div>
