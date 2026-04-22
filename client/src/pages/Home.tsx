@@ -47,17 +47,17 @@ export default function Home() {
   const portfolio = [
     {
       id: 1,
-      image: "/manus-storage/photo-event-1_05dc4036.jpg",
+      image: "/assets/photo-event-1.jpg",
       title: "Evento Colorido",
     },
     {
       id: 2,
-      image: "/manus-storage/photo-event-2_46d4ad26.jpg",
+      image: "/assets/photo-event-2.jpg",
       title: "Momento em Família",
     },
     {
       id: 3,
-      image: "/manus-storage/photo-event-3_8057a934.jpg",
+      image: "/assets/photo-event-3.jpg",
       title: "Celebração Especial",
     },
   ];
@@ -68,7 +68,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container flex items-center justify-between py-4">
           <div className="flex items-center gap-3">
-            <img src="/manus-storage/logo-ingrid_7a137acf.png" alt="Ingrid R. Silva Click" className="w-12 h-12 rounded-full object-cover" />
+            <img src="/assets/logo-ingrid.png" alt="Ingrid R. Silva Click" className="w-12 h-12 rounded-full object-cover" />
             <h1 className="text-lg font-bold" style={{ fontFamily: "Playfair Display" }}>
               Ingrid R. Silva
             </h1>
